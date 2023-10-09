@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEWS 23.56 * 7</title>   
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+         
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    
+    <header> 
+      <div class="logo">
+        <i class="fa-regular fa-newspaper fa-beat-fade fa-2xl" style="color: #292f36;"></i>   
+        <h4 style="display: inline-block; color:#292f36">NEWS 23.56 * 7</h4>
+      </div>  
+      
+      <div class="inputsearch desktop">  
+        <form id="searchform">
+          <input type="text" placeholder="Search..." id="searchinput"> 
+          <span><i class="fa-solid fa-search"></i></span>
+        </form>
+      </div>  
+      <nav class="desktop"> 
+        <ul>
+          <li onClick="search('Breaking')">BREAKING</li>  
+          <li onClick="search('gadgets')">TECHNOLOGY</li>
+          <li onClick="search('Sports')">SPORTS</li>  
+          <li onClick="search('cinema')">ENTERTAINMENT</li>
+          <li onClick="search('Business')">BUSINESS</li>
+        </ul>
+      </nav>    
+    
+      <div class="menubtn">
+        <i class="fa-solid fa-bars fa-lg"></i>
+      </div> 
+      
+      <div class="mobile hidden">
+        <nav> 
+          <ul>
+            <li onClick="search('Breaking')">BREAKING</li>  
+            <li onClick="search('gadgets')">TECHNOLOGY</li>
+            <li onClick="search('Sports')">SPORTS</li>  
+            <li onClick="search('cinema')">ENTERTAINMENT</li>
+            <li onClick="search('Business')">BUSINESS</li>
+          </ul>
+        </nav> 
+        <div class="inputsearch">  
+          <form id="searchformmobile">
+            <input type="text" placeholder="Search..." id="searchinputmobile"> 
+            <span><i class="fa-solid fa-search"></i></span>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main> 
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
